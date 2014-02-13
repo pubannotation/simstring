@@ -5,5 +5,5 @@ $CFLAGS='-I../../include'
 have_library('stdc++')
 have_library('iconv', 'libiconv_open')
 
-create_makefile('@PACKAGE@')
+create_makefile('simstring')
 
