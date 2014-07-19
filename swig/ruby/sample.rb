@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'simstring'
+require './simstring'
 
 # Create a SimString database with two person names.
 db = Simstring::Writer.new('sample.db')
